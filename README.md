@@ -1,3 +1,5 @@
+Forked from samwize/flickr-video-splitter, change to use x86-64 linux ffmpeg
+
 Flickr Video Splitter
 =====================
 
@@ -40,4 +42,4 @@ The repository includes a copy of `ffmpeg` and `ffprobe`. The latest version can
 
 If you want to split a video in different chunk size eg. 300 seconds each (instead of 90 seconds), you can pass the chunk duration in the 2nd parameter.
 
-	./split.sh /path/to/awesome-video.mp4 3000
+	./split.sh /path/to/awesome-video.mp4 300
