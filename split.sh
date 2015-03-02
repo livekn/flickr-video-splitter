@@ -1,3 +1,8 @@
+if [ $# -eq 0 ]; then
+  echo "usage: $0 video_file [duration]";
+    exit;
+fi
+
 # The video filename to split
 filename=$1
 
